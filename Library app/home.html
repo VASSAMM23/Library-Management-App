@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Library Management App</title>
+</head>
+<body>
+
+    <div class="header">Library Management App</div>
+    <div class="main">
+
+        <div class="container">
+            <input class="input" type="text" placeholder="Search book..." id="searchbook">
+            <button class="enter" id="searchEnter">Enter</button>
+            <div class="display-results" id="display-search"></div>
+            <button class="action" id="lend">Lend</button>
+        </div>
+
+        <div class="container">
+            <input class="input" type="text" placeholder="Return book..." id="returnbook">
+            <button class="enter" id="returnEnter">Enter</button>
+            <div class="display-results" id="display-return"></div>
+             <button class="action" id="return">Return</button>
+        </div>
+
+        <div class="container">
+            <input class="input" type="text" placeholder="Add book..." id="addbook">
+            <button class="enter" id="addEnter">Enter</button>
+            <div class="diplay-results" id="display-add"></div>
+            <button class="action" id="add">Add</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
